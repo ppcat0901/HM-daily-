@@ -6,15 +6,6 @@
     <title>Week-over-Week Sales Comparison</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <!-- Chosen Palette: Warm Neutrals (Slate, Sage, Blue) -->
-    <!-- Application Structure Plan: A comparative dashboard layout is used. The primary view is a direct week-over-week comparison. A grouped bar chart and a summary table with variance calculation allow for macro analysis. Clicking a store drills down into a micro view, comparing daily trends for the two weeks for that specific store. This tiered approach (Overview -> Comparison -> Daily Trend) provides a logical and powerful analysis workflow. -->
-    <!-- Visualization & Content Choices: 
-        - Goal: Inform (High-Level Trend) -> Presentation: KPI cards with % change -> Interaction: None. Justification: Provides an immediate summary of overall performance change.
-        - Goal: Compare (Store vs. Store, Week vs. Week) -> Presentation: Grouped Bar Chart (Chart.js) -> Interaction: Click a store's group to drill down. Justification: The most effective way to visually compare two data series across multiple categories.
-        - Goal: Analyze (Precise Changes) -> Presentation: Comparison Table with Variance -> Interaction: Click a row to drill down. Justification: Provides exact figures and color-coded variance for quick scanning of winners and losers.
-        - Goal: Investigate (Daily Cause) -> Presentation: Dual Line Chart (Chart.js) -> Interaction: Dynamically updates on drill-down. Justification: Pinpoints which days contributed to the weekly variance.
-        - CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
-    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
     <style>
         body {
             font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
