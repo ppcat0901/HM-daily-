@@ -6,15 +6,6 @@
     <title>Store Weekly Report Dashboard</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <!-- Chosen Palette: Warm Neutrals (Slate, Sage, Beige) -->
-    <!-- Application Structure Plan: A dashboard layout is chosen for its intuitive user flow. It starts with a high-level summary of all stores, allowing for quick comparisons. The core interaction is clicking on a store (either in the main chart or the summary table) to "drill down" into a detailed view. This structure lets users move from a macro "what is happening" overview to a micro "why it is happening" analysis seamlessly, making it far more efficient for performance review than switching between static sheets. -->
-    <!-- Visualization & Content Choices: 
-        - Goal: Inform (Overall Performance) -> Presentation: Large KPI Cards (HTML/CSS) -> Interaction: None, provides at-a-glance totals.
-        - Goal: Compare (Stores vs. Stores) -> Presentation: Bar Chart (Chart.js) & Summary Table (HTML) -> Interaction: Click a bar or table row to select a store for detailed analysis. A toggle button switches the chart's metric between sales and order. Justification: Visual comparison is faster with a chart, while the table provides precise figures and qualitative notes.
-        - Goal: Change (Daily Trends for a Store) -> This has been REPLACED.
-        - Goal: Inform (Top Items with Quantity) -> Presentation: Categorized Cards with item-quantity pairs (HTML/CSS) -> Interaction: Dynamically updates to show the selected store's top items and their sales counts. Justification: Provides more granular, actionable insight into product performance.
-        - CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
-    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
     <style>
         body {
             font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
